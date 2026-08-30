@@ -41,6 +41,18 @@ namespace Advanced03Assimant.Task01
 
         //    }return result;
         //}
+
+    //    public static List<Product> FilterProducts(List<Product> products,Predicate<Product> predicate)
+    //    {
+    //       List<Product> result= new List<Product>();
+    //        foreach(Product filter in products)
+    //        {
+    //            if (predicate.Invoke(filter))
+    //            {
+    //                result.Add(filter);
+    //            }
+    //        } return result;
+    //    }
     }
 }
     

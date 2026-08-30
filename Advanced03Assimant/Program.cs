@@ -60,7 +60,7 @@ namespace Advanced03Assimant
             #region Task03(2.3)
             //List<Product> catalog = ProductCatalog.GetCatalog();
             //Console.WriteLine("-------Summary List-----------");
-            
+
             //List<string> summary = ProductSearcher.TransformProducts(catalog, S =>$"{S.Name} ${S.Price}");
             //foreach (string s in summary)
             //{
@@ -77,9 +77,26 @@ namespace Advanced03Assimant
             //        Console.WriteLine(S);
             //    }
             //     }
-                
+
+            #endregion
+
+            #region Task03(3.3)
+            // List<Product> catalog = ProductCatalog.GetCatalog();
+            // Console.WriteLine("---------Low-StockAlert---------------");
+            //List<Product> lowstock=   ProductSearcher.FilterProducts(catalog, filter => filter.Stock < 20);
+            // foreach (Product filter in lowstock)
+            // {
+            //     Console.WriteLine($"[LOW STOCK] {filter.Name}: only {filter.Stock} left!");
+            // }
+
+
+            // }
+
             #endregion
         }
     }
 }
+
+
+
 
