@@ -1,4 +1,5 @@
 ﻿using Advanced03Assimant.Task01;
+using System.Net.Http.Headers;
 
 namespace Advanced03Assimant
 {
@@ -43,6 +44,16 @@ namespace Advanced03Assimant
             //}
 
 
+
+            #endregion
+
+            #region Task03(1.3)
+            //List<Product> catalog = ProductCatalog.GetCatalog();
+            //Console.WriteLine("-------------Short Report-----------");
+            //ProductSearcher.PrintReports(catalog, R => Console.WriteLine($"{R.Name} - ${R.Price}"));
+            //Console.WriteLine();
+            //Console.WriteLine("--------Detailed Report----------");
+            //ProductSearcher.PrintReports(catalog, R => Console.WriteLine($"[{R.Category}] {R.Name} | Price: ${R.Price} | Stock: {R.Stock}"));
 
             #endregion
         }
