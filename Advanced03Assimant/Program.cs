@@ -92,7 +92,27 @@ namespace Advanced03Assimant
 
             // }
 
+
+
             #endregion
+            #region  explaining which delegate type you used and why. 
+            //1:Method(SearchProducts)
+            //Used Func<Product, bool> because we need to check each product
+            // against a condition and get a true/false result back.
+
+            //2:Method(PrintReports)
+            // Used Action<Product> because we only need to perform an action
+            // (printing) on each product without returning any value.
+
+            //3:Method(TransformProducts)
+            // Used Func<Product, string> because we need to transform each
+            // product into a new value (a string) and return it
+
+            //4:Method(FilterProducts)
+            // Used Predicate<Product>, C#'s built-in delegate for conditions,
+            // to filter products matching a given condition.
+            #endregion
+
         }
     }
 }
