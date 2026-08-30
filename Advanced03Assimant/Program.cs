@@ -56,6 +56,29 @@ namespace Advanced03Assimant
             //ProductSearcher.PrintReports(catalog, R => Console.WriteLine($"[{R.Category}] {R.Name} | Price: ${R.Price} | Stock: {R.Stock}"));
 
             #endregion
+
+            #region Task03(2.3)
+            //List<Product> catalog = ProductCatalog.GetCatalog();
+            //Console.WriteLine("-------Summary List-----------");
+            
+            //List<string> summary = ProductSearcher.TransformProducts(catalog, S =>$"{S.Name} ${S.Price}");
+            //foreach (string s in summary)
+            //{
+            //    Console.WriteLine(s);
+            //}
+
+            //Console.WriteLine();
+
+            //Console.WriteLine("-----------Price Labels-------------");
+            //List<string> pricelabel = ProductSearcher.TransformProducts(catalog, S => $"{S.Name}: {(S.Price > 100 ? "Expensive!" : "Affordable")}");
+            //    {
+            //    foreach(string S in pricelabel)
+            //    {
+            //        Console.WriteLine(S);
+            //    }
+            //     }
+                
+            #endregion
         }
     }
 }

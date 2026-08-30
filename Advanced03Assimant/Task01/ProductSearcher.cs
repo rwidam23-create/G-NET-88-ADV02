@@ -27,8 +27,19 @@ namespace Advanced03Assimant.Task01
         //    {
         //        action.Invoke(R);
         //    }
-                  
 
+
+        //}
+        //public static List<string> TransformProducts(List<Product> products, Func<Product, string> transform)
+        //{
+        //    List<string> result = new List<string>();
+        //    foreach (Product S in products)
+        //    {
+        //        result.Add(transform.Invoke(S));
+
+
+
+        //    }return result;
         //}
     }
 }
